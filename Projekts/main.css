@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #201F1F;
+    --tw-bg-oppacity: 0.5;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 12fr auto ;
+
+}
+.logo1{
+    width: 130px;
+    height: 90px;
+    margin: 10px;
+    cursor: pointer;
+}
+.navigation li,a,button{
+    font-family: 'Creepster', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 10%;
+    flex-basis: 100px;
+    grid-column: span 2;
+    min-height: 100px;
+
+}
+.nav_links{
+    list-style: none;
+    padding-left: 19vh;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #872341;
+}
+.btnnr button{
+    border: none;
+    padding: 9px 27px;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-color: #872341;
+}
+.btnnr button:hover{
+    background-color: #588723;
+}
+main{
+    margin: 15px;
+    border: 1px solid rgb(59, 59, 59);
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 690px ;
+    z-index: 1;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+.playnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    font-family: 'Young Serif', serif;
+
+
+}
+.playnow button {
+    margin-top: 40px;
+    padding: 10px 130px; /* Space between h1 and button */
+    background-color: rgb(82, 75, 75);
+    border-radius: 13px;
+    font-size: 29px;
+}
+.playnow button:hover{
+    background-color: #872341;
+    transition: 0.6s;
+    color: black;
+    cursor: pointer;
+}
+.mainimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainimage img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+  
+}
